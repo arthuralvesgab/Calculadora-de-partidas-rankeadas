@@ -3,7 +3,7 @@ function calcularRank(vitorias, derrotas) {
     let saldoVitorias = vitorias - derrotas
     let nivel = ""
 
-    //rank
+    //rank do jogo
     switch (true) {
         case (vitorias <= 10):
             nivel = ferro 
