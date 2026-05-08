@@ -4,7 +4,43 @@ function calcularRank(vitorias, derrotas) {
     let nivel = ""
 
     //rank
-    if (vitorias <= 10) {
+    switch (true) {
+        case (vitorias <= 10):
+            nivel = ferro 
+            break
+        case (vitorias <= 20):
+            nivel = bronze
+            break
+
+        case (vitorias <= 50):
+        nivel = "prata";
+        break;
+
+        case (vitorias <= 80):
+        nivel = "ouro";
+        break;
+
+        case (vitorias <= 90):
+        nivel = "diamante";
+        break;
+        
+        case (vitorias <= 100):
+        nivel = "lendario";
+        break;
+        
+        default:
+        nivel = "imortal";
+    }
+
+
+
+
+
+
+
+
+
+    /**if (vitorias <= 10) {
         nivel = "ferro"
 
     } else if (vitorias <= 20) {
@@ -26,11 +62,11 @@ function calcularRank(vitorias, derrotas) {
         nivel ="imortal" 
     }
     return{saldoVitorias,nivel}
-}
+} */
 
 //resultado
 let vitorias = 75
 let derrotas = 20
-//teste
+
 let resultado = calcularRank(vitorias, derrotas)
-console.log("O heroi tem saldo de" + resultado.saldoVitorias + "está no nível de" + resultado.nivel )
+console.log("O heroi tem saldo de" + resultado.saldoVitorias + "está no nível de" + resultado.nivel )}
