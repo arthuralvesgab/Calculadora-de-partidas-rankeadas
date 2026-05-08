@@ -11,7 +11,7 @@ function calcularRank(vitorias, derrotas) {
         case (vitorias <= 20):
             nivel = bronze
             break
-
+//aaa
         case (vitorias <= 50):
         nivel = "prata";
         break;
