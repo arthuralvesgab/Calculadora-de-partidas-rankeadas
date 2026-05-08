@@ -32,37 +32,7 @@ function calcularRank(vitorias, derrotas) {
         nivel = "imortal";
     }
 
-
-
-
-
-
-
-
-
-    /**if (vitorias <= 10) {
-        nivel = "ferro"
-
-    } else if (vitorias <= 20) {
-        nivel = "bronze"
-        
-    } else if (vitorias <= 50) {
-        nivel = "prata"
-        
-    } else if (vitorias <= 50) {
-        nivel = "ouro"
-        
-    } else if (vitorias <= 90) {
-        nivel = "diamente"
-        
-    } else if (vitorias <= 100) {
-        nivel = "lendario"
-        
-    } else {
-        nivel ="imortal" 
-    }
-    return{saldoVitorias,nivel}
-} */
+    
 
 //resultado
 let vitorias = 75
