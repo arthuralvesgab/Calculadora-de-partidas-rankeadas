@@ -31,6 +31,6 @@ function calcularRank(vitorias, derrotas) {
 //resultado
 let vitorias = 75
 let derrotas = 20
-
+//teste
 let resultado = calcularRank(vitorias, derrotas)
 console.log("O heroi tem saldo de" + resultado.saldoVitorias + "está no nível de" + resultado.nivel )
